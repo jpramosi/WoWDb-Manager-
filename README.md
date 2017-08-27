@@ -15,5 +15,8 @@ Note: The manager was created for a more or less known bot, but feel free to for
 ----------
 
 Links:
+
 [Database](https://github.com/reapler/WoWDb-Database/releases/tag/3.3.5a-12340)
+
 [Documentation](http://wowdbdocs.bitballoon.com/)
+
