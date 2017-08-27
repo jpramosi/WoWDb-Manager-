@@ -12,7 +12,10 @@ Extracted & converted server data powered with the library is state of the art o
 
 Note: The manager was created for a more or less known bot, but feel free to fork / customize for your projects.
 
-----------
+
+
+
+
 
 Links:
 
