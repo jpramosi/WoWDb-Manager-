@@ -11,4 +11,5 @@ Extracted & converted server data powered with the library is state of the art o
 ----------
 
 Note: The manager was created for a more or less known bot, but feel free to fork / customize for your projects.
+[Database](https://github.com/reapler/WoWDb-Database/releases/tag/3.3.5a-12340)
 [Documentation](http://wowdbdocs.bitballoon.com/)
