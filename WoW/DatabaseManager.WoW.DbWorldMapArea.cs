@@ -20,34 +20,37 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 using System;
-using DatabaseManager.SqLite.Linq;
-using LinqToDB.Data;
+using System.Collections.Generic;
+using System.Linq;
+using DatabaseManager.Enums;
+using DatabaseManager.Filter;
+using DatabaseManager.Tables;
 
-namespace DatabaseManager
+
+namespace DatabaseManager.WoW
 {
     /// <summary>
-    /// Used for interaction with the database.
+    /// DbWorldMapArea
     /// </summary>
-    public class Access
+    /// <para>Class to retrieve informations from database</para>
+    public class DbWorldMapArea
     {
         /// <summary>
-        /// Opens and closes a connection to retrieve data.
-        /// <para>[Must be wrapped in an using statement]</para>
+        /// Return data
         /// </summary>
-        /// <example>
-        ///     using (var db = Access.Linq())
-        ///     {
-        ///         //code to retrieve data
-        ///     }
-        /// </example>
-        public static WoWDb Linq()
+        public static List<world_map_area> Get()
         {
-            DataConnection.DefaultSettings = new WoWDbSettings();
-            LinqToDB.Common.Configuration.Linq.AllowMultipleQuery = true;
-            return new WoWDb();
+            using (var db = Access.Linq())
+            {
+                var world_map_area = from wma in db.world_map_area
+                    select wma;
+                return world_map_area.ToList();
+            }
         }
     }
 }
+
+
 
 
 

@@ -173,6 +173,30 @@ namespace DatabaseManager.SqLite.Linq
         public ITable<taxi_path> taxi_path => GetTable<taxi_path>();
         
         public ITable<areatrigger> areatrigger => GetTable<areatrigger>();
+        
+        public ITable<dungeon_map> dungeon_map => GetTable<dungeon_map>();
+
+        public ITable<dungeon_map_chunk> dungeon_map_chunk => GetTable<dungeon_map_chunk>();
+
+        public ITable<map> map => GetTable<map>();
+
+        public ITable<spell> spell => GetTable<spell>();
+
+        public ITable<spell_cast_times> spell_cast_times => GetTable<spell_cast_times>();
+
+        public ITable<spell_duration> spell_duration => GetTable<spell_duration>();
+
+        public ITable<spell_focus_object> spell_focus_object => GetTable<spell_focus_object>();
+
+        public ITable<spell_icon> spell_icon => GetTable<spell_icon>();
+
+        public ITable<world_map_area> world_map_area => GetTable<world_map_area>();
+
+        public ITable<world_map_continent> world_map_continent => GetTable<world_map_continent>();
+
+        public ITable<world_map_overlay> world_map_overlay => GetTable<world_map_overlay>();
+
+        public ITable<world_map_transforms> world_map_transforms => GetTable<world_map_transforms>();
 
     }
 }
