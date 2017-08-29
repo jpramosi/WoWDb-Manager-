@@ -69,7 +69,7 @@ namespace DatabaseManager.Enums
     }
 
     /// <summary>
-    /// Id 2
+    /// <para>Id 2</para>
     /// <para>Exotic: special</para>
     /// <para>Miscellaneous: Blacksmith Hammer, Mining Pick, etc.</para>
     /// </summary>

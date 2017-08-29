@@ -24,7 +24,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Threading;
-using System.Runtime.Caching;
 using System.Threading.Tasks;
 using DatabaseManager.Tables;
 using robotManager.Helpful;
@@ -36,7 +35,6 @@ using wManager.Wow.Class;
 using wManager.Wow.Enums;
 using wManager.Wow.Helpers;
 using wManager.Wow.ObjectManager;
-using Memory = MemoryRobot.Memory;
 using Timer = robotManager.Helpful.Timer;
 
 
